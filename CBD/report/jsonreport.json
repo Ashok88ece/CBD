@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Google search scenario",
+        "description": "",
+        "id": "this-is-to-test-ipigs-search;google-search-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is enetering IPIGS.in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is typing the search term \"IPIGS\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "enter the return key",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "the user should see the search results",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is to test IPIGS search",
+    "description": "",
+    "id": "this-is-to-test-ipigs-search",
+    "keyword": "Feature",
+    "uri": "featureFiles/OpenGoogle.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@OpenGoogle"
+      }
+    ]
+  }
+]
